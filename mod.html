@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./server.js"></script>
+    <script src="./scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <title>ScheduleU</title>
+    <h1 class="center">Modify Employee</h1>
+</head>
+<body>
+    <div class="center">
+        <label for="lookup">Lookup By ID</label><br />
+        <input type="number" id="lookup" name="lookup" />
+        <input type="button" value="Search" id="search" onclick="lookup()" name="search" />
+        <br>
+        <br>
+    </div>
+    <div class="center">
+        <div>
+            <br />
+            <br />
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" /><br>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" /></br>
+            <br />
+            <label for="fptime">Full-Time</label>
+            <input type="radio" id="fptime" name="ftime" /> <br />
+            <label for="fptime">Part-Time</label>
+            <input type="radio" id="fptime" name="ptime" /> <br />
+
+            <br />
+            <br />
+
+            <label for="sunAvail">Sunday</label>
+            <select name="sunAvail" id="sunAvail">
+                <option></option>
+                <option value="Morning">Morning</option>
+                <option value="Afternoon">Afternoon</option>
+                <option value="Evening">Evening</option>
+                <option value="allDay">All-Day</option>
+                <option value="None">Not Available</option>
+            </select>
+            <br />
+            <label for="monAvail">Monday</label>
+            <select name="monAvail" id="monAvail">
+                <option></option>
+                <option value="Morning">Morning</option>
+                <option value="Afternoon">Afternoon</option>
+                <option value="Evening">Evening</option>
+                <option value="allDay">All-Day</option>
+                <option value="None">Not Available</option>
+            </select>
+            <br />
+            <label for="tueAvail">Tuesday</label>
+            <select name="tueAvail" id="tueAvail">
+                <option></option>
+                <option value="Morning">Morning</option>
+                <option value="Afternoon">Afternoon</option>
+                <option value="Evening">Evening</option>
+                <option value="allDay">All-Day</option>
+                <option value="None">Not Available</option>
+            </select>
+            <br />
+            <label for="wedAvail">Wednesday</label>
+            <select name="wedAvail" id="wedAvail">
+                <option></option>
+                <option value="Morning">Morning</option>
+                <option value="Afternoon">Afternoon</option>
+                <option value="Evening">Evening</option>
+                <option value="allDay">All-Day</option>
+                <option value="None">Not Available</option>
+            </select>
+            <br />
+            <label for="thuAvail">Thursday</label>
+            <select name="thuAvail" id="thuAvail">
+                <option></option>
+                <option value="Morning">Morning</option>
+                <option value="Afternoon">Afternoon</option>
+                <option value="Evening">Evening</option>
+                <option value="allDay">All-Day</option>
+                <option value="None">Not Available</option>
+            </select>
+            <br />
+            <label for="friAvail">Friday</label>
+            <select name="friAvail" id="friAvail">
+                <option></option>
+                <option value="Morning">Morning</option>
+                <option value="Afternoon">Afternoon</option>
+                <option value="Evening">Evening</option>
+                <option value="allDay">All-Day</option>
+                <option value="None">Not Available</option>
+            </select>
+            <br />
+            <label for="satAvail">Saturday</label>
+            <select name="satAvail" id="satAvail">
+                <option></option>
+                <option value="Morning">Morning</option>
+                <option value="Afternoon">Afternoon</option>
+                <option value="Evening">Evening</option>
+                <option value="allDay">All-Day</option>
+                <option value="None">Not Available</option>
+            </select>
+            <br />
+        </div>
+        <br />
+        <input type="button" id="submit" value="Submit"/>
+    </div>
+
+</body>

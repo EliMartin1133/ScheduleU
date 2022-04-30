@@ -1,0 +1,63 @@
+[{
+    "day":{
+        "monday":{
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 0
+        }
+    }
+},
+{
+    "day":{
+        "tuesday":{
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 0
+        }
+    }
+},
+{
+"day":{
+    "wednesday":{
+        "morning": 0,
+        "afternoon": 0,
+        "evening": 0
+        }
+    }
+},
+{
+"day":{
+    "thursday":{
+        "morning": 0,
+        "afternoon": 0,
+        "evening": 0
+    }
+}
+},
+{
+    "day":{
+        "friday":{
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 0
+        }
+    }
+},
+{
+    "day":{
+        "saturday":{
+            "morning": 0,
+            "afternoon": 0,
+            "evening": 0
+        }
+    }
+},
+{
+    "day":{
+        "sunday":{
+        "morning": 0,
+        "afternoon": 0,
+        "evening": 0
+        }
+    }
+}]

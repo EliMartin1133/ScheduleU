@@ -1,0 +1,87 @@
+[
+  {
+    "employee": {
+      "id": 100,
+      "first_name": "John",
+      "last_name": "Smith",
+      "role": "FT",
+      "availability": {
+        "monday_availability": "None",
+        "tuesday_availability": "Afternoon",
+        "wednesday_availability": "None",
+        "thursday_availability": "None",
+        "friday_availability": "Morning",
+        "saturday_availability": "Afternoon",
+        "sunday_availability": "None"
+      }
+    }
+  },
+  {
+    "employee": {
+      "id": 101,
+      "first_name": "Sam",
+      "last_name": "Samuels",
+      "role": "PT",
+      "availability": {
+        "monday_availability": "None",
+        "tuesday_availability": "None",
+        "wednesday_availability": "Morning",
+        "thursday_availability": "Morning",
+        "friday_availability": "None",
+        "saturday_availability": "Morning",
+        "sunday_availability": "Afternoon"
+      }
+    }
+  },
+  {
+    "employee": {
+      "id": 102,
+      "first_name": "Jessica",
+      "last_name": "Adams",
+      "role": "PT",
+      "availability": {
+        "monday_availability": "Evening",
+        "tuesday_availability": "Morning",
+        "wednesday_availability": "None",
+        "thursday_availability": "Afternoon",
+        "friday_availability": "None",
+        "saturday_availability": "Evening",
+        "sunday_availability": "Morning"
+      }
+    }
+  },
+  {
+    "employee": {
+      "id": 104,
+      "first_name": "Steven",
+      "last_name": "Stevenson",
+      "role": "PT",
+      "availability": {
+        "monday_availability": "None",
+        "tuesday_availability": "None",
+        "wednesday_availability": "None",
+        "thursday_availability": "Evening",
+        "friday_availability": "Evening",
+        "saturday_availability": "Evening",
+        "sunday_availability": "Morning"
+      }
+    }
+  },
+  {
+    "employee": {
+      "id": "100",
+      "first_name": "John",
+      "last_name": "Smith",
+      "role": "on",
+      "availability": {
+        "monday_availability": "None",
+        "tuesday_availability": "Afternoon",
+        "wednesday_availability": "None",
+        "thursday_availability": "None",
+        "friday_availability": "Morning",
+        "saturday_availability": "Afternoon",
+        "sunday_availability": "None"
+      }
+    }
+  }
+]

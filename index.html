@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ScheduleU</title>
+    <meta charset="utf-8">
+    <script src="./server.js"></script>  
+    <script src="./schedulealgorithm.js"></script>
+    <script src="./scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+    <font face="Verdana">
+        <h1>
+            ScheduleU
+        </h1>
+        <div class="container">
+            <div class="center">
+                <input type="button" value="New Employee" class="center" id="newEmployee" onclick="window.location='./create.html'" />
+                <input type="button" value="Modify Employee" class="center" id="modEmployee" onclick="window.location='./mod.html'" />
+                <input type="button" value="View Schedule" class="center" id="viewSched" onclick="createSchedule()" />
+            </div>
+        </div>
+
+
+        <table style ="width:65%; margin-left:auto; margin-right:auto;"" class="center">
+            <tr>
+                <th>Shift</th>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+            <tr>
+                <td class="center">Morning</td>
+                <td id="mm"></td>
+                <td id="tm"></td>
+                <td id="wm"></td>
+                <td id="thm"></td>
+                <td id="fm"></td>
+                <td id="sm"></td>
+                <td id="sdm"></td>
+
+            </tr>
+            <tr>
+                <td class="center">Afternoon</td>
+                <td id="ma"></td>
+                <td id="ta"></td>
+                <td id="wa"></td>
+                <td id="tha"></td>
+                <td id="fa"></td>
+                <td id="sa"></td>
+                <td id="sda"></td>
+
+            </tr>
+            <tr>
+                <td class="center">Evening</td>
+                <td id="me"></td>
+                <td id="te"></td>
+                <td id="we"></td>
+                <td id="the"></td>
+                <td id="fe"></td>
+                <td id="se"></td>
+                <td id="sde"></td>
+            </tr>
+        </table>
+    </font>
+</body>
+</html>
